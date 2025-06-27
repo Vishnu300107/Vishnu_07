@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>User Input</title>
+
+<style>
+
+body {
+
+background-color: beige;
+
+}
+
+header, footer {
+
+width: 80%;
+
+margin: auto;
+
+background-color: blanchedalmond;
+
+padding: 20px;
+
+text-align: center;
+
+color: brown;
+
+}
+
+main {
+
+background-color: bisque;
+
+width: 80%;
+
+margin: auto;
+  padding: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>User Input, using the &lt;form&gt; Element</h1>
+
+<h2>Accepting user input, through the &lt;input&gt; Elements</h2>
+
+</header>
+
+<main>
+
+<h3>Registration</h3>
+
+<form action="UserReg.php">
+
+<fieldset><legend>User Registration</legend>
+
+<label for="userN">Name: <input type="text" name="userN" id="userN"></label>
+
+<br><br>
+
+<label for="mobNo">Mobile No: <input type="number" name="mobNo" id="mobNo"></label>
+
+<br><br>
+
+<label for="emailID">E-Mail ID: <input type="email" name="email" id="emailID"></label>
+
+<br><br>
+
+<label for="passW">Password: <input type="password" name="pWord" id="passW"></label>
+
+<br><br>
+
+<label for="conPW">Confirm Password: <input type="password" name="confirmPW"
+
+id="conPW"></label><br><br>
+
+<input type="submit" value="Register">
+
+</fieldset>
+
+</form>
+
+<h3>Login Form</h3>
+
+<form action="UserLogin.php">
+
+<fieldset><legend>User Login</legend>
+
+<label for="uName">Username: <input type="text" name="uName" id="uName"></label>
+
+<br><br>
+
+<label for="uPass">Password: <input type="password" name="uPass" id="uPass"></label>
+
+<br><br>
+
+<input type="submit" value="Login">
+
+</fieldset>
+
+</form>
+
+</main>
+
+<footer>
+
+<h3>User Inputs</h3>
+
+<p>&copy; Copyright Protected: 2025-2026</p>
+
+</footer>
+
+</body>
+
+</html>
